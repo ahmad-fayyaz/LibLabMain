@@ -13,7 +13,7 @@ const Navbar = () => {
           </div>
           <ul className="flex space-x-5">
             <li><a className="font-bold underline" href="https://swat-ds.github.io/docsLibLab/" target="_blank" rel="noopener noreferrer">docs.</a></li>
-            <li><a href="#"><Mail size={20} /></a></li>
+            <li><a href="mailto:alicast1@swarthmore.edu"><Mail size={20} /></a></li>
             <li><a href="#"><Moon size={20} /></a></li>
             <li><a href="#"><Music2 size={20} /></a></li>
           </ul>
