@@ -1,0 +1,10 @@
+@import url("https://use.typekit.net/ppm4yuy.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "chiavettieri", sans-serif;
+  color-scheme: light;
+}
