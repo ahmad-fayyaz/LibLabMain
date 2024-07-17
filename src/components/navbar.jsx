@@ -8,7 +8,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
       <div className="container px-2 mx-auto relative">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-12 w-12 mr-2" src={darkMode ? logoDark : logoLight} alt="Logo" />
+            <a href="/"><img className="h-12 w-12 mr-2" src={darkMode ? logoDark : logoLight} alt="Logo" /></a>
           </div>
           <ul className="flex space-x-5">
             <li><a className="font-bold underline" href="https://swat-ds.github.io/docsLibLab/" target="_blank" rel="noopener noreferrer">docs.</a></li>
