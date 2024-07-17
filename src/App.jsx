@@ -1,10 +1,13 @@
-import React from 'react'
+import HeroSection from './components/HeroSection.jsx'
 import Navbar from './components/navbar.jsx' // Import the 'Navbar' component
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <div className='max-w-7xl mx-auto pt-20 px-6'>
+        <HeroSection />
+      </div>
     </>
   )
 }
