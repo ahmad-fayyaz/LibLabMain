@@ -5,7 +5,7 @@ import { Music2 } from 'lucide-react';
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 py-3 w-full">
+    <nav className="sticky top-0 z-50 py-3 w-full" >
       <div className="container px-2 mx-auto relative">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">

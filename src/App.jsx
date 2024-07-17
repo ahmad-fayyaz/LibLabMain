@@ -1,5 +1,5 @@
 import HeroSection from './components/HeroSection.jsx'
-import Navbar from './components/Navbar.jsx'
+import Navbar from './components/navbar.jsx'
 const App = () => {
   return (
     <>
