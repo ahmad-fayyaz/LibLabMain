@@ -8,8 +8,9 @@ export default {
     extend: {
       colors: {
         'light-grey': '#B8B8B8',
-      }
+      },
     },
   },
   plugins: [],
-}
+  darkMode: 'class',
+};

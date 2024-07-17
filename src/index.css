@@ -12,3 +12,12 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark {
+  background-color: #1a202c; /* Tailwind's gray-900 */
+  color: #f7fafc; /* Tailwind's white */
+}

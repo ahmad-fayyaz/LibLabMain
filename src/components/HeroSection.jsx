@@ -8,11 +8,11 @@ const HeroSection = () => {
             <span className="font-bold"> Immersive Realities </span>
             <span className="underline"> Initiative</span>
           </h1>
-          <h2 className="text-xl lg:text-3xl mt-4 italic text-light-grey font-thin">
+          <h2 className="text-xl lg:text-3xl mt-4 italic text-light-grey dark:text-gray-300 font-thin">
             Join us in shaping the future of reality through immersive experiences and interdisciplinary collaboration.
           </h2>
           <div className="flex flex-auto w-full mt-20 justify-center lg:ml-40 lg:justify-start">
-            <button className="bg-black hover:bg-light-grey text-white px-8 lg:px-20 py-2">Enter the Gallery Now</button>
+            <button className="bg-black hover:bg-light-grey text-white px-8 lg:px-20 py-2 dark:bg-white dark:text-black dark:hover:bg-gray-200">Enter the Gallery Now</button>
           </div>
         </div>
       </div>
