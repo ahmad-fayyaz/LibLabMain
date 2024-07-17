@@ -12,7 +12,7 @@ const HeroSection = () => {
             Join us in shaping the future of reality through immersive experiences and interdisciplinary collaboration.
           </h2>
           <div className="flex flex-auto w-full mt-20 justify-center lg:ml-40 lg:justify-start">
-            <button className="bg-black text-white px-8 lg:px-20 py-2">Learn More</button>
+            <button className="bg-black hover:bg-light-grey text-white px-8 lg:px-20 py-2">Enter the Gallery Now</button>
           </div>
         </div>
       </div>

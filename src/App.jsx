@@ -1,6 +1,5 @@
 import HeroSection from './components/HeroSection.jsx'
-import Navbar from './components/navbar.jsx' // Import the 'Navbar' component
-
+import Navbar from './components/Navbar.jsx'
 const App = () => {
   return (
     <>
