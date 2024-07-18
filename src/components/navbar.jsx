@@ -2,7 +2,6 @@ import { useState, useRef, useEffect } from 'react';
 import logoLight from "../assets/logo-dark.png"; // Light mode logo
 import logoDark from "../assets/logo-light.png"; // Dark mode logo
 import { Mail, Moon, Sun, Music2, VolumeX } from 'lucide-react';
-import sound from "../assets/backgound-music.mp3";
 
 const Navbar = ({ toggleDarkMode, darkMode }) => {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -10,9 +9,17 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
 
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.play().catch(error => {
-        console.error("Error attempting to play audio:", error);
-      });
+      const playAudio = () => {
+        audioRef.current.play().catch(error => {
+          console.error("Error attempting to play audio:", error);
+        });
+      };
+
+      // Attempt to play the audio
+      playAudio();
+
+      // Unmute the audio after playing
+      audioRef.current.muted = false;
     }
   }, []);
 
@@ -50,7 +57,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
           </ul>
         </div>
       </div>
-      <audio ref={audioRef} src= {sound} loop autoPlay />
+      <audio ref={audioRef} src="./src/assets/backgound-music.mp3" loop autoPlay muted />
     </nav>
   );
 };
