@@ -17,7 +17,7 @@ const App = () => {
   };
 
   return (
-    <Router basename='/LibLabMain'>
+    <Router basename='/LibLabMain/'>
       <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
         <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
         <div className='max-w-7xl mx-auto pt-20 px-6'>
