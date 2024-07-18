@@ -22,7 +22,7 @@ const HeroSection = () => {
         <div className="flex flex-auto w-full mt-20 justify-center lg:ml-40 lg:justify-start">
           <button
             onClick={handleButtonClick}
-            className="bg-black hover:bg-light-grey text-white px-8 lg:px-20 py-2 dark:bg-white dark:text-black dark:hover:bg-gray-200"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-black hover:bg-light-grey text-white px-8 lg:px-20 py-2 dark:bg-white dark:text-black dark:hover:bg-gray-200"
           >
             Enter the Gallery Now
           </button>
