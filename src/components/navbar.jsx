@@ -36,13 +36,13 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
 
   return (
     <nav className="sticky top-0 z-50 py-3 w-full bg-white dark:bg-gray-900 text-black dark:text-white">
-      <div className="container px-2 mx-auto relative">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center flex-shrink-0">
-            <a href="/LibLabMain/"><img className="h-12 w-12 mr-2" src={darkMode ? logoDark : logoLight} alt="Logo" /></a>
+      <div className="transition container px-2 mx-auto relative">
+        <div className="transition flex justify-between items-center">
+          <div className="transition flex items-center flex-shrink-0">
+            <a href="/LibLabMain/"><img className="transition h-12 w-12 mr-2" src={darkMode ? logoDark : logoLight} alt="Logo" /></a>
           </div>
-          <ul className="flex space-x-5">
-            <li><a className="font-bold underline" href="https://swat-ds.github.io/docsLibLab/" target="_blank" rel="noopener noreferrer">docs.</a></li>
+          <ul className="transition flex space-x-5">
+            <li><a className="transition font-bold underline" href="https://swat-ds.github.io/docsLibLab/" target="_blank" rel="noopener noreferrer">docs.</a></li>
             <li><a href="mailto:alicast1@swarthmore.edu"><Mail size={20} /></a></li>
             <li>
               <button onClick={toggleDarkMode}>
