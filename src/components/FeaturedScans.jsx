@@ -5,7 +5,7 @@ const FeaturedScans = () => {
         {
             title: 'LibLab Bear',
             description: 'Our first scan is a bear!',
-            iframeUrl: '../assets/objFiles/bear/bear.glb'
+            iframeUrl: './public/bear.glb'
         },
         {
             title: 'Scan 2',
