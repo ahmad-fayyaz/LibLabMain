@@ -8,8 +8,8 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="transition flex flex-col items-start mt-20 min-h-screen h-screen px-6">
-      <div className="transition w-full max-w-screen-lg mx-auto p-6 lg:w-[820px] lg:h-[330px]">
+    <div className="transition flex-col items-start mt-20 min-h-screen h-screen px-6">
+      <div className="transition w-full max-w-screen-lg mx-auto p-6 lg:w-[820px] lg:h-[320px]">
         <h1 className="transition font-bold text-4xl lg:text-6xl">LibLab:</h1>
         <h1 className="text-4xl lg:text-6xl">
           <span className="transition italic">Swarthmore College&rsquo;s</span>
