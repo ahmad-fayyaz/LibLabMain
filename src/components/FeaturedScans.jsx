@@ -27,7 +27,7 @@ const FeaturedScans = () => {
     return (
         <div className="flex flex-col">
             {/* Header */}
-            <div className="transition w-full bg-black dark:bg-white py-16">
+            <div className="transition w-full bg-black dark:bg-white py-10 md:py-16 lg:py-20">
                 <h2 className="transition text-3xl md:text-4xl lg:text-5xl text-white dark:text-black font-bold pl-4 md:pl-8 lg:pl-20">Featured Scans</h2>
             </div>
 
