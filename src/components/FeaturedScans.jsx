@@ -43,6 +43,7 @@ const FeaturedScans = () => {
                                     alt={scan.title}
                                     ar
                                     auto-rotate
+                                    scale="auto"
                                     camera-controls
                                     ios-src={scan.iosUrl}
                                     className="w-full h-64 md:h-80 lg:h-96"
