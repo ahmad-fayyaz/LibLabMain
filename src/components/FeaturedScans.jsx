@@ -44,6 +44,9 @@ const FeaturedScans = () => {
                                     auto-rotate
                                     camera-controls
                                     className="w-full h-64 md:h-80 lg:h-96"
+                                    ios-src={scan.iframeUrl}
+                                    ar-modes="webxr scene-viewer quick-look"
+                                    fallback-text="Your browser does not support AR content"
                                 ></model-viewer>
                             </div>
                             <h3 className="mt-4 text-lg md:text-xl font-bold text-black dark:text-white">{scan.title}</h3>
