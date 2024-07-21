@@ -5,7 +5,8 @@ const FeaturedScans = () => {
         {
             title: 'LibLab Bear',
             description: 'Our first scan is a bear!',
-            iframeUrl: './models/bear.glb'
+            iframeUrl: './models/bear.glb',
+            iosUrl: './models/bear.usdz'
         },
         {
             title: 'Scan 2',
@@ -43,6 +44,7 @@ const FeaturedScans = () => {
                                     ar
                                     auto-rotate
                                     camera-controls
+                                    ios-src={scan.iosUrl}
                                     className="w-full h-64 md:h-80 lg:h-96"
                                 ></model-viewer>
                             </div>
