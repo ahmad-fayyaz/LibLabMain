@@ -8,21 +8,21 @@ const FeaturedScans = () => {
             iframeUrl: './models/bear.glb',
             iosUrl: './models/bear.usdz'
         },
-        {
-            title: 'Scan 2',
-            description: 'This is a description for Scan 2',
-            iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
-        },
-        {
-            title: 'Scan 3',
-            description: 'This is a description for Scan 3',
-            iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
-        },
-        {
-            title: 'Scan 4',
-            description: 'This is a description for Scan 4',
-            iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
-        }
+        // {
+        //     title: 'Scan 2',
+        //     description: 'This is a description for Scan 2',
+        //     iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
+        // },
+        // {
+        //     title: 'Scan 3',
+        //     description: 'This is a description for Scan 3',
+        //     iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
+        // },
+        // {
+        //     title: 'Scan 4',
+        //     description: 'This is a description for Scan 4',
+        //     iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
+        // }
     ];
 
     return (
@@ -43,7 +43,7 @@ const FeaturedScans = () => {
                                     alt={scan.title}
                                     ar
                                     auto-rotate
-                                    scale="auto"
+                                    //scale="auto"
                                     camera-controls
                                     ios-src={scan.iosUrl}
                                     className="w-full h-64 md:h-80 lg:h-96"
