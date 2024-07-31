@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection.jsx';
 import Navbar from './components/navbar.jsx';
 import GalleryPage from './components/GalleryPage.jsx';
 import FeaturedScans from './components/FeaturedScans.jsx';
+import GalleryRoom from './components/GalleryRoom.jsx';
 import { useState } from 'react';
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
               <FeaturedScans />
             </>} />
             <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/gallery-room" element={<GalleryRoom />} />
           </Routes>
         </div>
       </div>
