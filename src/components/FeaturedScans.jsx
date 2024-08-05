@@ -10,19 +10,22 @@ const FeaturedScans = () => {
             iosUrl: './models/bear.usdz'
         },
         {
+            title: 'Wooden Key',
+            description: '3D Printable Model Key',
+            iframeUrl: './models/key.glb',
+            iosUrl: './models/key.usdz'
+        },
+        {
             title: 'Protest Bus',
-            description: 'Scan of a protest march bus',
-            iframeUrl: './models/untitled.glb',
+            description: 'A bus poster from a protest',
+            iframeUrl: './models/bus.glb',
+            iosUrl: './models/bus.usdz'
         },
         {
-            title: 'Scan 3',
-            description: 'This is a description for Scan 3',
-            iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
-        },
-        {
-            title: 'Scan 4',
+            title: 'Printing Press Block',
             description: 'This is a description for Scan 4',
-            iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
+            iframeUrl: './models/press.glb',
+            iosUrl: './models/press.usdz'
         }
     ];
 
