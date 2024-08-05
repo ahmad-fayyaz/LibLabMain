@@ -9,9 +9,9 @@ const FeaturedScans = () => {
             iosUrl: './models/bear.usdz'
         },
         {
-            title: 'Scan 2',
-            description: 'This is a description for Scan 2',
-            iframeUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb'
+            title: 'Protest Bus',
+            description: 'Scan of a protest march bus',
+            iframeUrl: './models/untitled.glb',
         },
         {
             title: 'Scan 3',
@@ -26,10 +26,10 @@ const FeaturedScans = () => {
     ];
 
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col pt-10 pb-20">
             {/* Header */}
-            <div className="transition w-full bg-black dark:bg-white py-10 md:py-16 lg:py-20">
-                <h2 className="transition text-3xl md:text-4xl lg:text-5xl text-white dark:text-black font-bold pl-4 md:pl-8 lg:pl-20">Featured Scans</h2>
+            <div className="transition w-full md:py-10 lg:py-20">
+                <h2 className="transition text-3xl md:text-4xl lg:text-5xl text-black dark:text-white font-bold pl-4 md:pl-8 lg:pl-20"><span className="transition">Featured </span><span className="transition underline italic">Scans</span></h2>
             </div>
 
             {/* Cards */}
