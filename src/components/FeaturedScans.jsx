@@ -23,7 +23,7 @@ const FeaturedScans = () => {
         },
         {
             title: 'Printing Press Block',
-            description: 'This is a description for Scan 4',
+            description: 'Replicatable printing press block.',
             iframeUrl: './models/press.glb',
             iosUrl: './models/press.usdz'
         }
