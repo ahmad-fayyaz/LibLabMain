@@ -1,4 +1,5 @@
 // src/components/FeaturedScans.jsx
+import { Box } from 'lucide-react';
 
 const FeaturedScans = () => {
     const scans = [
@@ -29,7 +30,11 @@ const FeaturedScans = () => {
         <div className="flex flex-col pt-10 pb-20">
             {/* Header */}
             <div className="transition w-full md:py-10 lg:py-20">
-                <h2 className="transition text-3xl md:text-4xl lg:text-5xl text-black dark:text-white font-bold pl-4 md:pl-8 lg:pl-20"><span className="transition">Featured </span><span className="transition underline italic">Scans</span></h2>
+                <h2 className="transition text-3xl md:text-4xl lg:text-5xl text-black dark:text-white font-bold pl-4 md:pl-8 lg:pl-20 flex items-center">
+                    <Box size={36} className="mr-4 text-black dark:text-white" />
+                    <span>Featured</span>
+                    <span className="transition underline italic ml-1">Scans</span>
+                </h2>
             </div>
 
             {/* Cards */}
@@ -43,7 +48,6 @@ const FeaturedScans = () => {
                                     alt={scan.title}
                                     ar
                                     auto-rotate
-                                    //scale="auto"
                                     camera-controls
                                     ios-src={scan.iosUrl}
                                     className="w-full h-64 md:h-80 lg:h-96"
